@@ -1,0 +1,29 @@
+{
+  "_metadata": {
+    "created": "2024-01-15T00:00:00",
+    "description": "AI-Powered Grant Proposal Assistant Memory Store",
+    "version": "1.0.0",
+    "total_projects": 0
+  },
+  "_schema": {
+    "project_structure": {
+      "versions": [
+        {
+          "version": "integer",
+          "agent": "string - agent class name",
+          "timestamp": "ISO datetime string",
+          "output": "object - agent output data",
+          "rationale": "string - explanation of agent decisions"
+        }
+      ],
+      "agents_used": "array of agent names that have worked on this project",
+      "created_at": "ISO datetime string",
+      "last_updated": "ISO datetime string"
+    },
+    "supported_agents": [
+      "OutlineDesignerAgent",
+      "BudgetEstimatorAgent",
+      "ReviewerSimulationAgent"
+    ]
+  }
+}
