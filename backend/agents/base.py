@@ -16,7 +16,7 @@ class BaseAgent(ABC):
         Initialize the base agent with Gemini Flash 2.0
         """
         # ⚠️ Hardcoded Google API Key (replace with your actual key)
-        GOOGLE_API_KEY = "AIzaSyCF6MydBh6Kacv_14cNoZimz7A0oq6iPOs"
+        GOOGLE_API_KEY = ""
 
         # Configure Gemini API
         genai.configure(api_key=GOOGLE_API_KEY)
